@@ -1,6 +1,6 @@
-# Shape Index Solidbench Experiment with Comunica where 80% of the shape index entries are closed shapes 
+# Shape Index Solidbench Experiment with Comunica where 80% of the datasets have a shape index 
 
-Experiments to benchmark solid bench queries using the shape index approach, where 80% of the shape index entries are closed shapes.
+Experiments to benchmark solidbench queries using the shape index approach, where 80% of the datasets expose a shape index.
 The queries are available in the `./queries` directory.
 This experiment tests a setup where each dataset is described maximally using shapes and a shape index.
 
@@ -45,5 +45,4 @@ popd
 you can save each iteration of the benchmark to a nextcloud cloud storage using the `-b` parameter with the URL
 of a cloud storage with a write permission.
 The results will be materialized in the `./results` directory.
-
 
